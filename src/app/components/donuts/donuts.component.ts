@@ -11,16 +11,17 @@ export class DonutsComponent {
   @Input() labels!: string[];
   @Input() data!: any;
 
-  constructor() { }
+  // constructor() { }
 
-  public doughnutChartData: ChartData<'doughnut'> = {
-    labels: this.labels,
-    datasets: [
-      this.data
-    ],
-  };
+  // public doughnutChartData: ChartData<'doughnut'> = {
+  //   labels: this.labels,
+  //   datasets: [
+  //     this.data
+  //   ],
+  // };
 
+  // public doughnutChartType: ChartType = 'doughnut';
+  public doughnutChartLabels: string[] = this.labels;
   public doughnutChartType: ChartType = 'doughnut';
-
 
 }

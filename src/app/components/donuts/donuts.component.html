@@ -2,9 +2,7 @@
     <div class="card-body">
         <h3 *ngIf="title">{{title}}</h3>
         <h3 *ngIf="!title">No title</h3>
-        <div style="display: block">
-            <canvas baseChart [data]="doughnutChartData" [type]="doughnutChartType"></canvas>
-        </div>
-
+        <canvas baseChart class="chart" [data]="data" [type]="doughnutChartType">
+        </canvas>
     </div>
 </div>
