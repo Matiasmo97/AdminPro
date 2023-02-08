@@ -17,8 +17,11 @@
   left: 0px;
   right: 0px;
 }
-.login-box .social {
-  display: block;
+
+.login-google {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 30px;
 }
 
